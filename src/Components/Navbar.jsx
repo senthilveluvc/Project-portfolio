@@ -16,9 +16,9 @@ const Nav = () => {
     }
   }
 
-  var showMenu = () => {
-    var bar = document.getElementsByClassName("bar");
-    var ham = document.getElementsByClassName("NavbarLinks");
+  let showMenu = () => {
+    let bar = document.getElementsByClassName("bar");
+    let ham = document.getElementsByClassName("NavbarLinks");
     bar[0].classList.toggle("barOne");
     bar[1].classList.toggle("barTwo");
     bar[2].classList.toggle("barThree");
@@ -26,9 +26,9 @@ const Nav = () => {
     ham[0].classList.toggle("showNavbar");
   };
 
-  var hideMenu = () => {
-    var bar = document.getElementsByClassName("bar");
-    var ham = document.getElementsByClassName("NavbarLinks");
+  let hideMenu = () => {
+    let bar = document.getElementsByClassName("bar");
+    let ham = document.getElementsByClassName("NavbarLinks");
     bar[0].classList.remove("barOne");
     bar[1].classList.remove("barTwo");
     bar[2].classList.remove("barThree");
@@ -41,10 +41,10 @@ const Nav = () => {
     <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
       <h1
         title="Reload"
-        onClick={() => window.location.reload(true)}
+        onClick={() => window.location.assign("http://localhost:5173/")}
         className="Logo"
       >
-        ER
+        SV
       </h1>
 
       <div className="Hamburger" onClick={showMenu}>

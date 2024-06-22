@@ -1,16 +1,14 @@
 import React from "react";
-import { CgCPlusPlus } from "react-icons/cg";
+// import { CgCPlusPlus } from "react-icons/cg";
 import {
   FaReact,
-  FaGitAlt,
   FaGithub,
   FaNpm,
-  FaFigma,
   FaBootstrap,
   FaHtml5,
   FaCss3,
 } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
+import { DiJavascript1, DiMysql, DiNodejs } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 
 const Skills = ({ skill }) => {
@@ -20,12 +18,11 @@ const Skills = ({ skill }) => {
     Javascript: <DiJavascript1 />,
     Bootstrap: <FaBootstrap />,
     Tailwind: <SiTailwindcss />,
-    "C++": <CgCPlusPlus />,
     React: <FaReact />,
-    Git: <FaGitAlt />,
     Github: <FaGithub />,
     Npm: <FaNpm />,
-    Figma: <FaFigma />,
+    Mysql: <DiMysql />,
+    Nodejs: <DiNodejs />
   };
 
   return (

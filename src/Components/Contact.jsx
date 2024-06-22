@@ -62,7 +62,7 @@ const Contact = () => {
               required
             />
           </div>
-          <a type="submit" href="mailTo:work.eshaaldev@protonmail.com">
+          <a type="submit" href="mailTo:senthilv789@gmail.com">
             <button className="submit-btn">
               {" "}
               Submit

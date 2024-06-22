@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import FilmImage from "../images/Film.png";
-import GymImage from "../images/gym.png";
-import ColourImage from "../images/colour.png";
-import BackpackImage from "../images/backpack.png";
+import portfolio from "../images/portfoliomockup.jpg";
+import realestate from "../images/realestatemockup.jpg";
+import webdev from "../images/webdevmockup.jpg";
+import foodapp from "../images/foodappmockup.jpg";
 
 const Projects = () => {
   return (
@@ -12,10 +12,10 @@ const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className="project">
-        <ProjectBox projectPhoto={GymImage} projectName="Levels" />
-        <ProjectBox projectPhoto={FilmImage} projectName="Movie" />
-        <ProjectBox projectPhoto={ColourImage} projectName="ColourPalette" />
-        <ProjectBox projectPhoto={BackpackImage} projectName="Backpack" />
+        <ProjectBox projectPhoto={portfolio} projectName="Portfolio" />
+        <ProjectBox projectPhoto={realestate} projectName="Realestate_model" />
+        <ProjectBox projectPhoto={webdev} projectName="Blogpage_model" />
+        <ProjectBox projectPhoto={foodapp} projectName="Foodapp_model" />
       </div>
     </div>
   );

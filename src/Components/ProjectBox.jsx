@@ -4,25 +4,21 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
-    LevelsDesc:
-      "This website is a for a local gym to help with their sales.This helped me understand React better and more clearly. I also learned how to host on vercel.",
-    LevelsGithub: "https://github.com/EshaalB/Gym-Website",
-    LevelsWebsite: "https://gym-website-pink.vercel.app/",
+    PortfolioDesc:
+      "This website tells about my works with live examples. This helped me understand React better and more clearly. I also learned how to host on vercel.",
+    PortfolioWebsite: "https://gym-website-pink.vercel.app/",
 
-    MovieDesc:
-      "This web app  is for helping you find your desired movie.The project helped me with understanding the working of API.I also learned new CSS properties and tricks.",
-    MovieGithub: "https://github.com/EshaalB/Movie-App",
-    MovieWebsite: "https://film-mania.vercel.app/",
+    Realestate_modelDesc:
+      "This web app  is for helping you find your desired House. The project helped me with understanding the working of media querries. I also learned new CSS properties and tricks.",
+    Realestate_modelWebsite: "https://react-projects-eta-woad.vercel.app/",
 
-    ColourPaletteDesc:
-      "This website helps you generate random colours that you can use as a palette.The project helped me understand Javascript more deeply using advance techniques",
-    ColourPaletteGithub: "https://github.com/EshaalB/Colour-palette-Generator",
-    ColourPaletteWebsite: "https://colourpalettegen.netlify.app",
+    Blogpage_modelDesc:
+      "This website is a model representation of individual's blog and contents. Html and css are used mainly to develop this site. A simple Navbar with links is created.",
+      Blogpage_modelWebsite: "https://project-webdev-pi.vercel.app/",
 
-    BackpackDesc:
-      "This webpageis was made for an ecommerce brand showcasing their backpacks.The project taught me how to use custom cursors and arrange text in a much better way",
-    BackpackGithub: "https://github.com/EshaalB/Landing-Page--React-",
-    BackpackWebsite: "https://landing-page-react-sage.vercel.app/",
+      Foodapp_modelDesc:
+      "This webpage is was made for a Food brand showcasing their eatables with prices. The project taught me how to use grids and arrange text in a much better way.",
+      Foodapp_modelWebsite: "https://project-foodapp.vercel.app/",
   };
 
   return (
@@ -35,11 +31,11 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
         {desc[projectName + "Desc"]}
         <br />
 
-        <a href={desc[projectName + "Github"]} target="_blank">
+        {/* <a href={desc[projectName + "Github"]} target="_blank">
           <button className="projectbtn">
             <FaGithub /> Github
           </button>
-        </a>
+        </a> */}
 
         <a href={desc[projectName + "Website"]} target="_blank">
           <button className="projectbtn">
