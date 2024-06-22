@@ -41,7 +41,7 @@ const Nav = () => {
     <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
       <h1
         title="Reload"
-        onClick={() => window.location.assign("http://localhost:5173/")}
+        onClick={() => window.location.assign("https://project-portfolio-mu-eight.vercel.app/")}
         className="Logo"
       >
         SV

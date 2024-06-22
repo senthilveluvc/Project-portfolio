@@ -1,6 +1,6 @@
 import React from "react";
 import Skills from "./Skills.jsx";
-import Resume from "../images/ITrole.jpg";
+import Resume from "../images/Resume_cv.jpg";
 import { FaFileDownload } from "react-icons/fa";
 const About = () => {
   return (

@@ -6,7 +6,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
     PortfolioDesc:
       "This website tells about my works with live examples. This helped me understand React better and more clearly. I also learned how to host on vercel.",
-    PortfolioWebsite: "https://gym-website-pink.vercel.app/",
+    PortfolioWebsite: "https://project-portfolio-mu-eight.vercel.app/",
 
     Realestate_modelDesc:
       "This web app  is for helping you find your desired House. The project helped me with understanding the working of media querries. I also learned new CSS properties and tricks.",
