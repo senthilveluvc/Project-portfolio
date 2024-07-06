@@ -1,6 +1,6 @@
 import React from "react";
 import Skills from "./Skills.jsx";
-import Resume from "../images/Resume_cv.jpg";
+import Resume from "../images/Senthilvelu's Resume.jpg";
 import { FaFileDownload } from "react-icons/fa";
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
             Apart from coding I can handle databases like mysql and do
             content writing in my spare time.
           </p>
-          <a href={Resume} download="Resume" className="resume-btn">
+          <a href={Resume} download="MERN-stack Resume" className="resume-btn">
             <button>
               Download Resume <FaFileDownload></FaFileDownload>
             </button>
